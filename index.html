@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Indie+Flower&family=Kiwi+Maru&family=Klee+One&family=Mukta:wght@700&family=Pangolin&family=Signika:wght@700&family=Zen+Maru+Gothic:wght@400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="format-detection" content="telephone=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+  </head>
+
+  <title>Chillin' Burgertest</title>
+  <body>
+       
+    <!--header-->
+
+
+
+    <header >
+       
+        <!--sp header-->
+        <div class="sp-header">
+          
+          <h1 class="logo">
+              <a href="index.html">
+                <img src="img/black-logo.png" alt="" width="100" height="auto">
+              </a>                
+          </h1>
+        
+          
+          <div id="nav-drawer">
+            <input id="nav-input" type="checkbox" class="nav-unshown">
+            <label id="nav-open" for="nav-input"><span></span></label>
+            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+              <div id="nav-content">
+                <ul>
+                  <li><a href="#top">HOME  ></a></li>
+                  <li><a href="#menu">MENU  ></a></li>
+                  <li><a href="#concept">CONCEPT  ></a></li>
+                  <li><a href="#location">LOCATION  ></a></li>
+                </ul>
+
+                <div class="sp-header-right">
+                  <div class="insta-link">
+                    <a href="" >
+                        <img class="nav-icon" src="img/instagram.png" width="50px" height="50px"> 
+                      </a>
+                  </div>
+    
+                  <div class="delivery">
+                    <a href="" >
+                        <img class="nav-icon" src="img/uber.png" width="70px" height="70px">
+                      </a>
+                  </div>
+
+                </div>
+              </div>
+          </div>
+           
+           
+
+            
+       
+        </div>
+
+          <div class="pcheader">
+          
+            <h1 class="logo">
+              <a href="index.html">
+                <img src="img/white-logo.png" alt="" width="100" height="auto">
+              </a>                
+            </h1>
+            <nav class="nav">
+              
+              <ul class="pc-nav-list">
+
+                <li class="list__item">
+                  <a href="#top" class="link">HOME</a>
+                </li>
+               
+                <li class="list__item">
+                    <a href="#menu" class="link">MENU</a>
+                </li>
+
+                <li class="list__item">
+                  <a href="#concept" class="link">CONCEPT</a>
+                </li>
+                
+                <li class="list__item">
+                  <a href="#location" class="link">LOCATION</a>
+                </li>
+
+              </ul>
+
+              <div class="header-right">
+               
+                <div class="insta-link">
+                  <a href="" >
+                    <img class="nav-icon" src="img/instagram.png" width="50px" height="50px"> 
+                  </a>
+                </div>
+
+                <div class="delivery">
+                  <a href="" >
+                    <img class="nav-icon" src="img/uber.png" width="50px" height="50px">
+                  </a> 
+                </div>
+
+              </div>
+
+            </nav>
+          
+          </div>
+
+        </header>
+    
+        <div id="global-header">
+          <div class="pcheader scroll-nav">
+              
+            <h1 class="logo">
+              <a href="index.html">
+                <img src="img/white-logo.png" alt="" width="100" height="auto">
+              </a>                
+            </h1>
+            <nav class="nav">
+              
+              <ul class="pc-nav-list">
+    
+                <li class="list__item">
+                  <a href="#top" class="link">HOME</a>
+                </li>
+               
+                <li class="list__item">
+                    <a href="#menu" class="link">MENU</a>
+                </li>
+    
+                <li class="list__item">
+                  <a href="#concept" class="link">CONCEPT</a>
+                </li>
+                
+                <li class="list__item">
+                  <a href="#location" class="link">LOCATION</a>
+                </li>
+    
+              </ul>
+    
+              <div class="header-right">
+               
+                <div class="insta-link">
+                  <a href="" >
+                    <img class="nav-icon" src="img/instagram.png" width="50px" height="50px"> 
+                  </a>
+                </div>
+    
+                <div class="delivery">
+                  <a href="" >
+                    <img class="nav-icon" src="img/uber.png" width="50px" height="50px">
+                  </a> 
+                </div>
+    
+              </div>
+    
+            </nav>
+          
+          </div>
+        </div>
+     
+
+        <div id="wrapper">     
+          
+          <div class="top-img img-box">
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <svg class="arrows">
+              <path class="a1" d="M0 0 L30 32 L60 0"></path>
+              <path class="a2" d="M0 20 L30 52 L60 20"></path>
+              <path class="a3" d="M0 40 L30 72 L60 40"></path>
+            </svg>
+          </div>
+
+
+         
+            <div id="menu"></div>
+            <div class="burger-wrapper">
+            <h2><p class="shake">MENU</p><span>ハンバーガー</span></h2>
+           
+              
+
+              <ul class="menu">
+                <li class="burger-menu">
+                  <img src="img/egg-burger.png" alt="" >
+                  <span data-ja-burger="ベーコンエッグバーガー">BACON EGG BURGER</span>
+                  <p class="price">1,350<span class="yen" >yen</span></p>
+                </li>
+
+                <li class="burger-menu">
+                  <img src="img/double-cheese.png" alt="" >
+                  <span data-ja-burger="ダブルチーズバーガー">DOUBLE CHEESE BURGER</span>
+                  <p class="price">1,650<span class="yen" >yen</span></p>
+                </li>
+
+                <li class="burger-menu">
+                  <img src="img/chicken-burger.png" alt="" >
+                  <span data-ja-burger="チキンバーガー">CHICKEN BURGER</span>
+                  <p class="price">1,350<span class="yen" >yen</span></p>
+                </li>
+
+                <li class="burger-menu">
+                  <img src="img/thick-burger.png" alt="" >
+                  <span data-ja-burger="極厚ビーフバーガー">THICK BEEF BURGER</span>
+                  <p class="price">2,150<span class="yen" >yen</span></p>
+                </li>
+
+                <li class="burger-menu">
+                  <img src="img/beef-basil.png" alt="" >
+                  <span data-ja-burger="バジルビーフバーガー">BASIL BEEF BURGER</span>
+                  <p class="price">1,450<span class="yen" >yen</span></p>
+                </li>
+
+                <li class="burger-menu">
+                  <img src="img/tower-burger.png" alt="" >
+                  <span data-ja-burger="タワーバーガー">TOWER BURGER</span>
+                  <p class="price">2,450<span class="yen" >yen</span></p>
+                </li>
+
+              </ul>      
+            </div>
+          
+
+        <div class="snack-wrapper">
+          <h2><p class="shake">SNACKS</p><span>おつまみ</span></h2>
+          <div class="snack-table">
+            <dl class="menu-table">
+              <div>
+              <dt class="snack-menu">
+                <span data-ja="フライドポテト">FLIED POTATO</span>
+              </dt>
+              <dd>550 yen</dd>
+              </div>
+              
+              <div>
+                <dt class="snack-menu">
+                  <span data-ja="チキンウィング">CHICKEN WINGS</span>
+                </dt>
+                <dd>650 yen</dd>
+              </div>
+
+              <div>
+                <dt class="snack-menu">
+                  <span data-ja="イカリング">CALAMARI</span>
+                </dt>
+                <dd>750 yen</dd>
+              </div>
+
+              <div>
+                <dt class="snack-menu">
+                  <span data-ja="シーザーサラダ">CAESAR SALAD</span>
+                </dt>
+                <dd>600 yen</dd>
+              </div>
+
+              <div>
+                <dt class="snack-menu">
+                  <span data-ja="バスクチーズケーキ">BASQUE CHEESE CAKE</span>
+                </dt>
+                <dd>450 yen</dd>
+              </div>
+
+            </dl>
+
+          </div>
+        </div>
+
+        <div class="drink-wrapper">
+          <h2 ><p class="shake">DRINK</p><span>ドリンク</span></h2>
+          <div class="drink-table">
+            
+            <div class="drink-menu">
+              <h4>SOFT DRINK</h4>
+              <dl class="menu-table">
+                <div>
+                  <dt class="softdrink">
+                    <span data-ja="コーヒー(アイス/ホット)">COFFEE (ICE/HOT)</span>
+                  </dt>
+                  <dd>450 yen</dd>
+                </div>
+
+                <div>
+                  <dt class="softdrink">
+                    <span data-ja="カフェラテ">CAFE LATTE</span>
+                  </dt>
+                  <dd>550 yen</dd>
+                </div>
+
+                <div>
+                  <dt class="softdrink">
+                    <span data-ja="オレンジジュース">ORANGE JUICE</span>
+                  </dt>
+                  <dd>350 yen</dd>
+                </div>
+
+                <div>
+                  <dt class="softdrink">
+                    <span data-ja="パイナップルジュース">PINEAPPLE JUICE</span>
+                  </dt>
+                  <dd>350 yen</dd>
+                </div>
+
+                <div>
+                  <dt class="softdrink">
+                    <span data-ja="クラフトコーラ">CRAFT COKE</span>
+                  </dt>
+                  <dd>350 yen</dd>
+                </div>
+
+                <div>
+                  <dt class="softdrink">
+                    <span data-ja="ジンジャエール">GINGER ALE</span>
+                  </dt>
+                  <dd>350 yen</dd>
+                </div>
+                
+          
+
+              </dl>
+            </div>
+
+            <div class="drink-menu">
+              <h4>ALCOHOL</h4>
+              <dl class="menu-table">
+                <div>
+                  <dt class="alcohol">
+                    <span data-ja="キリン生ビール">DRAFT BEER (KIRIN)</span>
+                  </dt>
+                  <dd>650 yen</dd>
+                </div>   
+
+                <div>
+                  <dt class="alcohol">
+                    <span data-ja="ボトルビール">BOTTLE BEER</span>
+                  </dt>
+                  <dd>550 yen</dd>
+                </div>   
+
+                <div>
+                  <dt class="alcohol">
+                    <span data-ja="ハイボール">HIGHBALL</span>
+                  </dt>
+                  <dd>550 yen</dd>
+                </div>
+
+              </dl>
+            </div>
+
+          </div>
+        </div>
+
+        <div id="concept"></div>
+        <div class="concept-wrapper">
+            <h2 ><p class="shake">CONCEPT</p><span>コンセプト</span></h2> 
+            <div class="concept">   
+              
+              <div class="concept-text">
+                <p>Chillin' Burgerでは、お客様に落ち着いて過ごしていただくために<br>
+                  インテリアにもこだわっています。<br>
+                  また当店のバンズやお肉は農家さんと力を合わせて製造されています。<br>
+                  とことん素材にこだわったハンバーガーを、ごゆっくりお楽しみください</p>
+              </div>
+          </div>
+          
+          <div class="concept-grid">
+            <img src="img/beer-img.jpg" class="beer">
+            <div class="source-p">
+              <img src="img/concept2.jpg" class="source">
+              <p class="fade source-txt">素材を引き立てる特製ソースを<br class="spbr">手作りしています</p>
+            </div>
+            <img src="img/concept3.jpg" class="cheers">
+
+          </div>
+        </div>
+
+
+      <div id="location"></div>
+      <div class="location-wrapper">
+        <h2 id="location"><p class="shake">LOCATION</p><span>ロケーション</span></h2>  
+
+        <div class="tab-wrap" >
+          <input id="tab01" type="radio" name="tab" class="tab-switch" checked="checked">
+          <label class="tab-label" for="tab01"><span data-footer-ja="名古屋店">NAGOYA</span></label>
+          
+          <div class="pc-tab-content">
+            <div class="location">          
+              <img src="img/nagoya.jpg">
+              <div class="shop-adress">
+                <p>
+                  <span class="shop-address-en">
+                    <span class="shop-address-label">0-0-000 Nakamura Ward,<br>Nagoya Aichi, Japan 453-0811</span>
+                  </span>
+                  <span class="shop-address-ja">
+                    <span class="shop-address-postalcode">〒453-0811</span>
+                    <span class="shop-address-label">愛知県名古屋市中村区太閤通0-0-000</span>
+                  </span>
+                </p>
+                <ul>
+                  <li>TEL : <span class="shop-contact">(12)-3456-7890</li>
+                  <li>FAX : <span class="shop-contact">(12)-3456-7890</li>
+                  <li>Tue-Sun: <span class="shop-contact">10AM - 10PM</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <dl class="toggle_contents border-bottom">
+            <dt class="toggle_title"><span data-footer-ja="名古屋店">NAGOYA</span><span class="toggle_btn">開く</span></dt>
+            <dd>
+              <div class="tab-content">
+  
+                <div class="location">          
+                  <img src="img/nagoya.jpg">
+                  <div class="shop-adress">
+                    <p>
+                      <span class="shop-address-en">
+                        <span class="shop-address-label">0-0-000 Nakamura Ward,<br>Nagoya Aichi, Japan 453-0811</span>
+                      </span>
+                      <span class="shop-address-ja">
+                        <span class="shop-address-postalcode">〒453-0811</span>
+                        <span class="shop-address-label">愛知県名古屋市中村区太閤通0-0-000</span>
+                      </span>
+                    </p>
+                    <ul>
+                      <li>TEL : <span class="shop-contact">(12)-3456-7890</li>
+                      <li>FAX : <span class="shop-contact">(12)-3456-7890</li>
+                      <li>Tue-Sun: <span class="shop-contact">10AM - 10PM</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </dd>
+          </dl>
+          
+
+          <input id="tab02" type="radio" name="tab" class="tab-switch">
+          <label class="tab-label" for="tab02"><span data-footer-ja="豊橋店">TOYOHASHI</span></label>
+          <div class="pc-tab-content">
+                <div class="location">          
+                  <img src="img/toyohashi.jpg">
+                  <div class="shop-adress">
+                    <p>
+                      <span class="shop-address-en">
+                        <span class="shop-address-label">0-0-0 Tsutsujigaoka,<br>Toyohashi Aichi, Japan 440-0858</span>
+                      </span>
+                      <span class="shop-address-ja">
+                        <span class="shop-address-postalcode">〒440-0858</span>
+                        <span class="shop-address-label">愛知県豊橋市つつじが丘0-0-0</span>
+                      </span>
+                    </p>
+                    <ul>
+                      <li>TEL : <span class="shop-contact">(12)-3456-7890</li>
+          
+                      <li>FAX : <span class="shop-contact">(12)-3456-7890</li>
+                      <li>Tue-Sun: <span class="shop-contact">10AM - 10PM</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+          <dl class="toggle_contents border-bottom">
+            <dt class="toggle_title"><span data-footer-ja="豊橋店">TOYOHASHI</span><span class="toggle_btn">開く</span></dt>
+            <dd>
+              <div class="tab-content">
+                <div class="location">          
+                  <img src="img/toyohashi.jpg">
+                  <div class="shop-adress">
+                    <p>
+                      <span class="shop-address-en">
+                        <span class="shop-address-label">0-0-0 Tsutsujigaoka,<br>Toyohashi Aichi, Japan 440-0858</span>
+                      </span>
+                      <span class="shop-address-ja">
+                        <span class="shop-address-postalcode">〒440-0858</span>
+                        <span class="shop-address-label">愛知県豊橋市つつじが丘0-0-0</span>
+                      </span>
+                    </p>
+                    <ul>
+                      <li>TEL : <span class="shop-contact">(12)-3456-7890</li>
+          
+                      <li>FAX : <span class="shop-contact">(12)-3456-7890</li>
+                      <li>Tue-Sun: <span class="shop-contact">10AM - 10PM</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </dd>
+          </dl>
+
+          <input id="tab03" type="radio" name="tab" class="tab-switch">
+          <label class="tab-label" for="tab03"><span data-footer-ja="天王寺店">OSAKA</span></label>
+          
+          <div class="pc-tab-content">
+            <div class="location">          
+              <img src="img/tennoji.jpg">
+              <div class="shop-adress">
+                <p>
+                  <span class="shop-address-en">
+                    <span class="shop-address-label">0-0-000 Uehonmachi Tenno-ji Ward,<br>OSAKA, Japan 543-0013</span>
+                  </span>
+                  <span class="shop-address-ja">
+                    <span class="shop-address-postalcode">〒543-0013</span>
+                    <span class="shop-address-label">大阪府大阪市天王寺区上本町0-0-000</span>
+                  </span>
+                </p>
+                <ul>
+                  <li>TEL : <span class="shop-contact">(12)-3456-7890</li>
+      
+                  <li>FAX : <span class="shop-contact">(12)-3456-7890</li>
+                  <li>Tue-Sun: <span class="shop-contact">10AM - 10PM</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          
+          <dl class="toggle_contents">
+            <dt class="toggle_title"><span data-footer-ja="天王寺店">OSAKA</span><span class="toggle_btn">開く</span></dt>
+            <dd>
+              <div class="tab-content">
+                <div class="location">          
+                  <img src="img/tennoji.jpg">
+                  <div class="shop-adress">
+                    <p>
+                      <span class="shop-address-en">
+                        <span class="shop-address-label">0-0-000 Uehonmachi Tenno-ji Ward,<br>OSAKA, Japan 543-0013</span>
+                      </span>
+                      <span class="shop-address-ja">
+                        <span class="shop-address-postalcode">〒543-0013</span>
+                        <span class="shop-address-label">大阪府大阪市天王寺区上本町0-0-000</span>
+                      </span>
+                    </p>
+                    <ul>
+                      <li>TEL : <span class="shop-contact">(12)-3456-7890</li>
+          
+                      <li>FAX : <span class="shop-contact">(12)-3456-7890</li>
+                      <li>Tue-Sun: <span class="shop-contact">10AM - 10PM</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </dd>
+          </dl>
+        </div>
+
+      </div>
+      <h2 id="gallery"><p class="shake">GALLERY</p><span>ギャラリー</span></h2>  
+      <div class="footer-gallery">
+
+        <img src="img/footer-img2.jpg">
+        <img src="img/footer-img.jpg">        
+        <img src="img/cheesecake.jpg">
+
+      </div>
+
+     
+      <p id="page-top"><a href="#"><span>Page Top☝︎</span></a></p>
+
+
+                                
+          <!--footer-->
+            <footer>
+              <div class="footer-group">
+                <div class="footer-right">
+                <p>＼SNSフォローはこちら／</p>
+                <div class="footer-sns">
+                  <a href="#"><img src="img/fb_white.png" alt="facebook" width="36px" height="36px"></a>
+                  <a href="#"><img src="img/instagram.png" alt="instagram" width="36px" height="36px"></a>
+                  <a href="#"><img src="img/twitter_white.png" alt="twitter" width="36px" height="36px"></a>
+                </div>
+                
+                <p class="p-midashi">2次会やパーティーも<br class="spbr">受け付けています。</p>
+                </div>
+
+                <div class="footer-delivery">
+                  <p>＼デリバリー注文はこちら／</p>
+                  <a href="#">
+                    <img src="img/uber.png" width="76px" height="76px">
+                  </a>
+                </div>
+              </div> 
+              
+
+            </footer>
+
+            <div class="copyright">
+              <p>ⒸChillin' Burger All Rights Reserved.</p>
+            </div>
+              
+
+
+        </div>
+  <script>
+      window.addEventListener("scroll", function () {
+  // ヘッダーを変数の中に格納する
+  const headerFixed = document.querySelector('#global-header');
+  const header = document.querySelector("header .pcheader");
+  // 100px以上スクロールしたらヘッダーに「scroll-nav」クラスをつける
+  header.classList.toggle("js-unvisible", window.scrollY > 100);
+  headerFixed.classList.toggle("js-active", window.scrollY > 100);
+  });
+  </script>
+  <script>
+    const pageScroll = (target) => {
+      const positionY = (target === "#top") ? 0 : $(target).offset().top;
+      $("html,body").stop().animate({
+        scrollTop: positionY
+      }, 800, "easeOutExpo")
+    }
+
+    $(function() {
+      $('#nav-content li a').on('click', function(event) {
+        $('#nav-input').prop('checked', false);
+      });
+
+      $('.pcheader a[href^="#"], #nav-content a[href^="#"]').on('click', function (event) {
+        pageScroll($(this).attr('href'));
+        event.preventDefault();
+      });
+    });
+    </script>
+    <script>
+      (window.onload = function() {
+
+        jQuery(window).scroll(function (){
+          jQuery(".fade").each(function(){
+            var winheight = jQuery(window).height();
+            var posi = jQuery(this).offset().top;
+            var scroll = jQuery(window).scrollTop();
+            if (scroll + winheight > posi){
+              jQuery(this).addClass("fadein");
+            } else {
+            }
+          });
+         });
+      })(); 
+      </script>
+
+  <script>
+    $(function(){
+      $('.toggle_title:first').addClass('selected');
+      $('.toggle_title').click(function(){
+        $(this).toggleClass('selected');
+        $(this).next().slideToggle();
+        $('.toggle_title').not($(this)).next().slideUp();
+        $('.toggle_title').not($(this)).removeClass('selected');
+      });
+    });
+
+  </script>
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+  <script src="js/pagetop.js"></script>
+  </body>
+
+</html>
